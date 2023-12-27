@@ -11,6 +11,8 @@
 		1132A9BA2B3B8E730018F59A /* RutinasTreu.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1132A9AF2B3B8E730018F59A /* RutinasTreu.framework */; };
 		1132A9BF2B3B8E730018F59A /* RutinasTreuTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1132A9BE2B3B8E730018F59A /* RutinasTreuTests.swift */; };
 		1132A9C02B3B8E730018F59A /* RutinasTreu.h in Headers */ = {isa = PBXBuildFile; fileRef = 1132A9B22B3B8E730018F59A /* RutinasTreu.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1132A9CE2B3B8FE00018F59A /* stracop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1132A9CD2B3B8FE00018F59A /* stracop.swift */; };
+		1132A9F12B3B976A0018F59A /* formato.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1132A9F02B3B976A0018F59A /* formato.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +31,8 @@
 		1132A9B32B3B8E730018F59A /* RutinasTreu.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = RutinasTreu.docc; sourceTree = "<group>"; };
 		1132A9B92B3B8E730018F59A /* RutinasTreuTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RutinasTreuTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1132A9BE2B3B8E730018F59A /* RutinasTreuTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RutinasTreuTests.swift; sourceTree = "<group>"; };
+		1132A9CD2B3B8FE00018F59A /* stracop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = stracop.swift; sourceTree = "<group>"; };
+		1132A9F02B3B976A0018F59A /* formato.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = formato.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +57,8 @@
 		1132A9A52B3B8E730018F59A = {
 			isa = PBXGroup;
 			children = (
+				1132A9F02B3B976A0018F59A /* formato.swift */,
+				1132A9CD2B3B8FE00018F59A /* stracop.swift */,
 				1132A9B12B3B8E730018F59A /* RutinasTreu */,
 				1132A9BD2B3B8E730018F59A /* RutinasTreuTests */,
 				1132A9B02B3B8E730018F59A /* Products */,
@@ -194,7 +200,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1132A9CE2B3B8FE00018F59A /* stracop.swift in Sources */,
 				1132A9B42B3B8E730018F59A /* RutinasTreu.docc in Sources */,
+				1132A9F12B3B976A0018F59A /* formato.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -348,6 +356,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
+				DEVELOPMENT_ASSET_PATHS = "stracop.swift formato.swift";
 				DEVELOPMENT_TEAM = WLKKZQY5NR;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -379,6 +388,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
+				DEVELOPMENT_ASSET_PATHS = "stracop.swift formato.swift";
 				DEVELOPMENT_TEAM = WLKKZQY5NR;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -407,6 +417,7 @@
 		1132A9C72B3B8E730018F59A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = WLKKZQY5NR;
@@ -423,6 +434,7 @@
 		1132A9C82B3B8E730018F59A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = WLKKZQY5NR;
