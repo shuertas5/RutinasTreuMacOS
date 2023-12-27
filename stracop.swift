@@ -8,5 +8,5 @@
 import Foundation
 
 func stracop(string: String,lon: Int) {
-    // bbbbbbvvvvvvñññññwwwwwww
+    // bbbbbbvvvvvvñññññwwwwwww ggghhhh
 }
